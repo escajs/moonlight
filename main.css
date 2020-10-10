@@ -1,0 +1,101 @@
+*,
+*:after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+    overflow-x:hidden;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: purple;
+}
+
+header {
+    min-height: 100vh;
+    width: 100vw;
+    background: #000;
+    background-size: cover;
+}
+
+.sidenav{
+	
+	
+}
+
+/*Landing Content*/
+.landing-content {
+    display: flex;
+    width: 100vw;
+    min-height: 700px;
+}
+
+.landing-content-cc {
+    display: flex;
+
+}
+
+.landing-content .landing-content-cc>div {
+    min-height: 100vh;
+    width: 50%;
+   
+}
+
+.landing-left-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color:white;
+}
+
+.landing-content .landing-content-cc> .landing-right-half {
+    background: url(bilbodoor.jpg) no-repeat center center;
+    min-height: 100%;
+}
+
+/*Landing Content*/
+/*StickyNav*/
+nav {
+    position: fixed;
+    transition: all .5s ease-in;
+    z-index:100;
+
+}
+
+.sticky {
+    background: white !important;
+}
+
+.sticky a {
+    color: black !important;
+}
+
+/*StickyNav*/
+/*main*/
+/*Parallax*/
+.about{
+	margin-top: 2rem;
+}.parallax-container{
+	min-height: 30vh;
+	width: 100vw;
+}.moon--container{
+	width:100%;
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*Parallax*/
+
+/*main*/
